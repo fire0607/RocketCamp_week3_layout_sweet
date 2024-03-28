@@ -1,0 +1,86 @@
+/* banner */
+.checkout-success-container{
+    width: 940px;
+    height: 460px;
+    margin-bottom: 60px;
+    background-image: url("./img/photo-1505935428862-770b6f24f629.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 付款成功 */
+
+.checkout-success-text{
+    padding-top: 128px;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.checkout-success-check-circle{
+    width: 190px;
+    justify-content: space-between;
+    color: #3F5D45;
+    position: relative;
+}
+
+
+/* 圈圈旁邊的線 */
+
+.check_circle1::after{
+    content: "";
+    position: absolute;
+    width: 66px; 
+    height: 1px; 
+    background-color: #3F5D45;
+    top: 12px;
+    left: 20px;
+}
+
+.check_circle2::after{
+    content: "";
+    position: absolute;
+    width: 66px; 
+    height: 1px; 
+    background-color: #3F5D45;
+    top: 12px;
+    left: 102px;   
+}
+
+.checkout-success-img img{
+    width: 190px;
+}
+
+/* 繼續逛逛連結 */
+
+.checkout-success-continue{
+    padding-top: 50px;
+}
+
+.checkout-success-continue a{
+    background-color: #FFE180;
+    color:#3F5D45;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 15px 102px;
+}
+
+/* 手機RWD */
+
+@media (max-width:575px){
+
+    .checkout-success-container{
+        margin: 0px;
+    }
+
+    .checkout-success-continue{
+        padding-top: 163px;
+    }
+
+    .checkout-success-continue a{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+}

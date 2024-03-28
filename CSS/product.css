@@ -1,0 +1,270 @@
+/* 頁面上方版圖 */
+
+.product-main-banner img{
+    max-height: 100%;
+    max-width: 100%;
+    justify-content: center;
+}
+/* 頁面下方容器 */
+
+.product-container{
+    max-width: 940px;
+    padding: 60px 0px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+/* 頁面左側導覽列 */
+
+.product-nav{
+    align-self: flex-start;
+    font-size: 24px;
+    font-weight: 500;
+    color: #3F5D45;
+    background-color: #fff;
+}
+
+.product-nav ul{
+    flex-direction: column;
+
+}
+
+.product-nav li{
+    padding: 16px 64px;
+    border: 1px solid #EAF0ED;
+}
+
+.product-nav-all{
+    background-color: #3F5D45;
+    color: #EAF0ED;
+}
+
+.product-nav ul li:hover{
+    background-color: #EAF0ED;
+    transition: .3s;
+}
+
+.product-nav ul li:first-child:hover {
+    background-color: #3F5D45;
+    color: #EAF0ED;
+}
+
+/* 頁面右側購物車清單 */
+
+.product-carts{
+    width: 620px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.product-carts-container1{
+    display: flex;
+    gap: 15px;
+}
+
+.product-carts-container2{
+    display: flex;
+    gap: 15px;
+}
+
+.product-carts-container3{
+    display: flex;
+    gap: 15px;
+}
+
+.product-items{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.product-items-img{
+    width: 300px;
+    height: 315px;
+    background-image: url("./img/p-1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 產品圖片替換區 */
+
+.items2{
+    background-image: url("./img/p-2.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.items3{
+    background-image: url("./img/p-3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.items4{
+    background-image: url("./img/p-4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.items5{
+    background-image: url("./img/p-5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.items6{
+    background-image: url("./img/p-6.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.items7{
+    background-image: url("./img/photo-1504473089979-b1c4993a9653.avif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 頁面產品區 */
+
+.product-items-special{
+    width: 260px;
+    display: flex;
+    justify-content: space-between;
+    color:#3F5D45;
+    position: absolute;
+    margin: 0px 20px;
+}
+
+.daliy{
+    background-color: #3F5D45;
+    color: #EAF0ED;
+    writing-mode: vertical-rl;
+    letter-spacing: 5px;
+    padding: 10px;
+}
+
+.favorite{
+    margin-top: 20px;
+}
+
+.product-items-text{
+    display: flex;
+    align-items: center;
+    color: #3F5D45;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+    border: 1px solid #EAF0ED;
+}
+
+.items-name{
+    padding: 15px 30px;
+    border-right: 1px solid #EAF0ED;
+}
+
+.items-price{
+    font-weight: 500;
+}
+
+.items-price{
+    padding: 15px 30px;
+}
+
+.items-add-cart a{
+    text-align: center;
+    width: 100%;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: #EAF0ED;
+    padding: 15px;
+    color: #3F5D45;
+}
+
+.product-carts-container4{
+    display: none;
+}
+
+
+/* 頁面下方頁數 */
+
+.product-pages ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: #3F5D45;
+    padding-top: 30px;
+}
+
+.product-pages li{
+    font-size: 20px;
+    font-weight: 500;
+    padding: 10px 15px;
+    border: 1px solid #EAF0ED;
+    background-color: #fff;
+}
+
+.product-pages span{
+    font-size: 20px;
+}
+
+.product-pages li:hover{
+    background-color: #3F5D45;
+    color: #EAF0ED;
+    transition: .3s;
+}
+
+
+
+/* 手機RWD */
+
+@media (max-width:575px){
+
+    .main-container{
+        display: block;
+    }
+
+    .product-container{
+        display: block;
+        padding-top: 0px;
+    }
+
+    .product-nav{
+        display: block;
+    }
+
+    .product-nav li{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .product-carts{
+        padding-top: 30px;
+        width: 100%;
+    }
+
+    .product-carts-container1,.product-carts-container2,.product-carts-container3{
+        display: none;
+    }
+
+    .product-carts-container4{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap:30px
+    }
+
+    .product-pages ul{
+        justify-content: center;
+    }
+}

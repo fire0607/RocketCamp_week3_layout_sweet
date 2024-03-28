@@ -1,0 +1,81 @@
+
+header{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: #fff;
+    padding: 30px;
+}
+
+.nav-container{
+    justify-content: space-between;
+}
+
+.logo{
+    width: 220px;
+}
+
+
+.navbar-mobile{
+    display: none;
+}
+
+.navbar-container{
+    display: flex;
+    padding-right: 30px;
+}
+
+.navbar-container li{
+    padding: 0px 30px;
+}
+
+.navbar-container a{
+    font-size: 16px;
+    font-weight: 700;
+    color: #3F5D45;
+}
+
+.shopping_cart a{
+    display: flex;
+    justify-content: end;
+}
+
+.logo{
+    display: flex;
+}
+
+.logo-moblie{
+    display: none;
+}
+
+
+
+
+/* 手機RWD */
+
+@media (max-width:575px){
+
+    .navbar-container{
+        display: none;
+    }
+    .navbar-mobile{
+        display: flex;
+    }
+    nav h1{
+        width: 50%;
+    }
+
+    .logo{
+        display: none;
+    }
+
+    .logo-moblie{
+        display: flex;
+        align-items: center;
+    }
+
+
+    
+}
