@@ -46,7 +46,7 @@ input:focus {
 .index-banner{
     width: 100%;
     height: 500px;
-    background-image: url("./img/photo-1473256599800-b48c7c88cd7e.avif");
+    background-image: url("https://raw.githubusercontent.com/fire0607/rocketcamp-homework3-layout-sweet/main/img/photo-1473256599800-b48c7c88cd7e.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
