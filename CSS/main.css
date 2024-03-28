@@ -104,7 +104,7 @@ input:focus {
 
 .banner-nav-items2-img{
     width: 100%; height: 100%;
-    background-image: url("./img/photo-1504114133367-631ecd3db3ca.avif");
+    background-image: url("../img/photo-1504114133367-631ecd3db3ca.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -114,7 +114,7 @@ input:focus {
 
 .banner-nav-items3-img{
     width: 100%; height: 100%;
-    background-image: url("./img/photo-1499638472904-ea5c6178a300.avif");
+    background-image: url("../img/photo-1499638472904-ea5c6178a300.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -138,7 +138,7 @@ input:focus {
 .index-center-whychoose-img{
     width: 460px;
     height: 460px;
-    background-image: url("./img/photo-1519730722595-a5ff788dea4d.avif");
+    background-image: url("../img/photo-1519730722595-a5ff788dea4d.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -149,7 +149,7 @@ input:focus {
     width: 90px;
     height: 310px;
     align-self: flex-start;
-    background-image: url("./img/lg-為什麼選擇了做甜點.svg");
+    background-image: url("../img/lg-為什麼選擇了做甜點.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -181,7 +181,7 @@ input:focus {
 .index-center-whyeat-img{
     width: 460px;
     height: 460px;
-    background-image: url("./img/photo-1501432781167-c0ccfd492297.avif");
+    background-image: url("../img/photo-1501432781167-c0ccfd492297.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -193,7 +193,7 @@ input:focus {
     height: 310px;
     padding-right: 40px;
     align-self: flex-start;
-    background-image: url("./img/lg-為什麼一定要吃甜點.svg");
+    background-image: url("../img/lg-為什麼一定要吃甜點.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -209,7 +209,7 @@ input:focus {
 .index-slogan{
     width: 90px;
     height: 333px;
-    background-image: url("./img/lg-想吃甜點是不需要理由的.svg");
+    background-image: url("../img/lg-想吃甜點是不需要理由的.svg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -262,7 +262,7 @@ input:focus {
         width: 215px;
         height: 65px;
         align-self: center;
-        background-image: url("./img/sm-橫式-為什麼選擇了做甜點.svg");
+        background-image: url("../img/sm-橫式-為什麼選擇了做甜點.svg");
         margin-bottom: 30px;
         order:1;
     }
@@ -295,7 +295,7 @@ input:focus {
         width: 215px;
         height: 65px;
         align-self: center;
-        background-image: url("./img/sm-橫式-為什麼一定要吃甜點.svg");
+        background-image: url("../img/sm-橫式-為什麼一定要吃甜點.svg");
         margin: 30px 0px;
         order:1;
     }
@@ -313,7 +313,7 @@ input:focus {
     .index-slogan{
         width: 230px;
         height: 65px;
-        background-image: url("./img/sm-橫式-想吃甜點是不需要理由的.svg");
+        background-image: url("../img/sm-橫式-想吃甜點是不需要理由的.svg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

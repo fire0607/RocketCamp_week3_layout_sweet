@@ -84,7 +84,7 @@
 .product-items-img{
     width: 300px;
     height: 315px;
-    background-image: url("./img/p-1.png");
+    background-image: url("../img/p-1.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -93,42 +93,42 @@
 /* 產品圖片替換區 */
 
 .items2{
-    background-image: url("./img/p-2.png");
+    background-image: url("../img/p-2.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .items3{
-    background-image: url("./img/p-3.png");
+    background-image: url("../img/p-3.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .items4{
-    background-image: url("./img/p-4.png");
+    background-image: url("../img/p-4.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .items5{
-    background-image: url("./img/p-5.png");
+    background-image: url("../img/p-5.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .items6{
-    background-image: url("./img/p-6.png");
+    background-image: url("../img/p-6.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
 .items7{
-    background-image: url("./img/photo-1504473089979-b1c4993a9653.avif");
+    background-image: url("../img/photo-1504473089979-b1c4993a9653.avif");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
