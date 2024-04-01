@@ -1,7 +1,7 @@
 /* 購物車頁面容器 */
 
 .cart-container{
-    gap: 20px;
+    width: 100%;
     padding: 20px 0px 40px 0px;
 }
 
@@ -67,7 +67,7 @@
     color:#3F5D45;
     font-size: 20px;
     font-weight: 300;
-    padding: 0px 40px;
+    padding: 0px 20px;
 }
 
 .cart-items-text-price{
@@ -100,7 +100,7 @@
 .cart-order{
     flex-direction: column;
     align-self: flex-start;
-    width: 300px;
+    width: 30%;
     background-color: #3F5D45;
     color: #EAF0ED;
 }
@@ -122,21 +122,21 @@
 }
 
 .cart-order-price-subtotal{
-    width: 260px;
+    width: 80%;
     padding-top: 15px;
     display: flex;
     justify-content: space-between;
 }
 
 .cart-order-price-deliveryfee{
-    width: 260px;
+    width: 80%;
     padding-top: 8px;
     display: flex;
     justify-content: space-between;
 }
 
 .cart-order-price-total{
-    width: 260px;
+    width: 80%;
     padding: 16px 0px;
     display: flex;
     justify-content: space-between;

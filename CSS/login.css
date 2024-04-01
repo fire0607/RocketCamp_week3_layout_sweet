@@ -76,10 +76,10 @@
 /* 右側 連結社群帳號欄位 */
 
 .login-social{
-    width: 350px;
+    max-width: 350px;
     background-color: #EAF0ED;
     flex-direction: column;
-    padding: 40px 0px;
+    padding: 40px 40px;
 }
 
 .login-social-text{

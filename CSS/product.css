@@ -30,7 +30,7 @@
 }
 
 .product-nav li{
-    padding: 16px 64px;
+    padding: 16px 50px;
     border: 1px solid #EAF0ED;
 }
 
@@ -52,7 +52,6 @@
 /* 頁面右側購物車清單 */
 
 .product-carts{
-    width: 620px;
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -74,20 +73,17 @@
 }
 
 .product-items{
-    width: 300px;
     display: flex;
     flex-direction: column;
     position: relative;
 
 }
 
-.product-items-img{
-    width: 300px;
-    height: 315px;
-    background-image: url("../img/p-1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.product-items-img img{
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+
 }
 
 /* 產品圖片替換區 */
@@ -137,7 +133,7 @@
 /* 頁面產品區 */
 
 .product-items-special{
-    width: 260px;
+    width: 85%;
     display: flex;
     justify-content: space-between;
     color:#3F5D45;
@@ -226,6 +222,14 @@
 
 
 /* 手機RWD */
+
+@media (max-width: 770px){
+.product-carts-container1,
+.product-carts-container2,
+.product-carts-container3{
+    gap: 5px;
+    }
+}
 
 @media (max-width:575px){
 
